@@ -1,18 +1,18 @@
 {
-  "name": "superagent-defaults",
+  "name": "superagent-guten",
   "version": "0.1.14",
   "description": "Create some defaults for superagent requests",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha"
   },
-  "repository": "https://github.com/camshaft/superagent-defaults.git",
+  "repository": "https://github.com/gutenye/superagent-defaults.git",
   "keywords": [
     "superagent",
     "context",
     "defaults"
   ],
-  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "author": "Guten Ye",
   "license": "MIT",
   "dependencies": {
     "emitter-component": "~1.0.1"

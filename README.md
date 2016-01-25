@@ -1,7 +1,14 @@
-superagent-defaults
+superagent-guten
 ===================
 
 Forked from https://github.com/camshaft/superagent-defaults
+
+Install
+-------
+
+```
+$ npm install superagent-guten
+```
 
 Difference
 ----------
@@ -18,12 +25,14 @@ var request = superagent()
 request
   .get("/auth")
   .use(prefix(API_URL))
+  .end()
 
 var vehicle = request.new()
   .use(prefix(`${API_URL}/vehicles/${vehicle_id}`))
 
 vehicle
   .get("/charge_state")
+  .end()
 ```
 
 ### Changes on Request instance

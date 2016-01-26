@@ -1,6 +1,6 @@
 {
   "name": "superagent-guten",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Create some defaults for superagent requests",
   "main": "index.js",
   "scripts": {

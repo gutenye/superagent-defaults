@@ -39,3 +39,4 @@ vehicle
 
 - `use(fn)` is using `on("request", fn)` now
 - Add `get`, `post`, `put`, ... methods
+- Add `run()`, similar to `end()` but returns promise
